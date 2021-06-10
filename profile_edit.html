@@ -1,0 +1,500 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title> EgyFesh: Profile </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		(function (e, t, n) { var r = e.querySelectorAll("html")[0]; r.className = r.className.replace(/(^|\s)no-js(\s|$)/, "$1js$2") })(document, window, 0);
+	</script>
+</head>
+<body>
+	<!--[if lte IE 9]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<header class="header">
+	<div class="container">
+		<div class="header-content">
+			<div class="side">
+				<h1 class="logo">
+					<a href="index.html"><img src="images/logo.svg" style="height:40px;" alt="egyFresh" /></a>
+				</h1>
+				<form class="search">
+					<input type="search" name="search" class="form-control" placeholder="search">
+					<button class="search-submit" type="submit">Search</button>
+				</form>
+			</div>
+			<div class="side">
+				<div class="auth-area">
+					<a href="#" data-toggle="modal" data-target="#signupModal" class="btn btn-link btn-wide text-uppercase">Sign up</a>
+					<a href="#" data-toggle="modal" data-target="#signinModal" class="btn btn-primary btn-wide text-uppercase">Sign in</a>
+				</div>
+				<div class="dropdown user-cart">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-cart-arrow-down"></i>
+						<span class="cart-number">4</span>
+					</button>
+					<div class="dropdown-menu dropdown-menu-right cart-dropdown">
+						<table class="table table-borderless table-sm">
+							<tbody>
+								<tr>
+									<td width="100%">
+										<div class="cart-item">
+											<figure>
+												<img src="" alt="">
+											</figure>
+											<div class="item-content">
+												<h6>product name</h6>
+												<span class="text-primary">20 EGP</span>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="input-counter">
+											<button type="button" class="btn btn-default">-</button>
+											<input type="text" name="" class="form-control" value="1Kg" />
+											<button type="button" class="btn btn-default">+</button>
+										</div>
+									</td>
+									<td>
+										<button type="button" class="btn btn-delete"><i class="far fa-trash-alt"></i></button>
+									</td>
+								</tr>
+								<tr>
+									<td width="100%">
+										<div class="cart-item">
+											<figure>
+												<img src="" alt="">
+											</figure>
+											<div class="item-content">
+												<h6>product name</h6>
+												<span class="text-primary">20 EGP</span>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="input-counter">
+											<button type="button" class="btn btn-default">-</button>
+											<input type="text" name="" class="form-control" value="1Kg" />
+											<button type="button" class="btn btn-default">+</button>
+										</div>
+									</td>
+									<td>
+										<button type="button" class="btn btn-delete"><i class="far fa-trash-alt"></i></button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="cart-checkout text-right">
+							<a href="checkout.html" class="btn btn-primary btn-wide text-uppercase">Checkout</a>
+						</div>
+					</div>
+				</div>
+				<div class="dropdown user-profile">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-haspopup="true" aria-expanded="false">
+						<figure>
+							<img src="" alt="" />
+						</figure>
+						<i class="fas fa-caret-down"></i>
+					</button>
+					<div class="dropdown-menu dropdown-menu-right user-dropdown">
+						<a class="dropdown-item" href="profile_edit.html"><i class="fas fa-user-edit"></i> Edit Profile</a>
+						<a class="dropdown-item" href="profile_address.html"><i class="fas fa-map-marker-alt"></i> Shipping Address</a>
+						<a class="dropdown-item" href="profile_cards.html"><i class="fas fa-id-card"></i> Cards</a>
+						<a class="dropdown-item" href="#"><i class="fas fa-file-alt"></i> Orders</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item signout" href="#"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+	
+
+<!-- <div class="main-nav-wrap">
+	<nav class="main-nav" data-sticky="sticky" data-options='{"topSpacing":0}'>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul>
+					<li>
+						<a href="list.html">Home Decor</a>
+					</li>
+					<li>
+						<a href="list.html">Furnitures</a>
+					</li>
+					<li>
+						<a href="list.html">Lighting</a>
+					</li>
+					<li>
+						<a href="list.html">Home Accents</a>
+					</li>
+					<li>
+						<a href="list.html">Rugs</a>
+					</li>
+					<li>
+						<a href="list.html">Outdoors</a>
+					</li>
+					<li>
+						<a href="list.html">Holydays</a>
+					</li>
+					<li>
+						<a href="list.html">Gifts</a>
+					</li>
+					<li>
+						<a href="list.html">Events</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>	 -->
+
+
+<div class="main-nav-wrap">
+	<nav class="navbar navbar-expand-lg navbar-light" data-sticky="sticky" data-options='{"topSpacing":0}'>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			 <ul class="navbar-nav mr-auto">
+			   <li class="nav-item active">
+			     <a class="nav-link" href="list.html">Home Decor <span class="sr-only">(current)</span></a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Furnitures</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Lights</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Home Accents</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Rugs</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Outdoors</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Holydays</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Gifts</a>
+			   </li>
+			   <li class="nav-item">
+			     <a class="nav-link" href="list.html">Events</a>
+			   </li>
+			 </ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<div class="main-content" id="mainContent">
+
+	<section class="section sec-pad-top-sm sec-pad-bottom-sm profile">
+		<div class="container">
+
+			<div class="profile-content">
+
+				<aside>
+					<div class="profile-name">
+						<div><strong>Ahmed Saeed</strong></div>
+						<div class="mt-2 text-muted">
+							<a href="#"><small><i class="fas fa-sign-out-alt"></i> Sign out</small></a>
+						</div>
+					</div>
+
+					<nav class="profile-nav">
+						<a href="profile_edit.html" class="active"><i class="fas fa-user-edit"></i> Edit Pofile</a>
+						<a href="profile_address.html"><i class="fas fa-map-marker-alt"></i> Shipping Address</a>
+						<a href="profile_cards.html"><i class="fas fa-id-card"></i> Cards</a>
+						<a href="#"><i class="fas fa-file-alt"></i> Orders</a>
+					</nav>
+
+				</aside>
+
+				<div class="profile-side-content">
+					<h3 class="title">Profile</h3>
+
+					<form action="">
+						<div class="form-group">
+							<div class="user-avatar">
+								<figure><img src="" alt=""></figure>
+								<div>
+									<div class="avatar-cong">
+										<div class="custom-file-style">
+											<input type="file" name="file-input">
+											<button class="btn btn-default">
+												Upload Avatar 
+												<i class="fas fa-camera"></i>
+											</button>
+										</div>
+										<div>
+											<button type="button" class="btn btn-delete btn-default"><i class="far fa-trash-alt"></i></button>
+										</div>	
+									</div>
+									<div class="mt-1 text-muted"><small>Up to 1MB, (300 x 300 px)</small></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">Name:</label>
+									<div>
+										<input type="text" name="" class="form-control" placeholder="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">E-Mail</label>
+									<div>
+										<input type="email" name="" class="form-control" placeholder="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">Country</label>
+									<div class="select-wrapper">
+										<select name="" class="form-control" id="">
+											<option value="1">1</option>
+											<option value="1">1</option>
+											<option value="1">1</option>
+											<option value="1">1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">City</label>
+									<div>
+										<input type="text" name="" class="form-control" placeholder="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">Zip Code</label>
+									<div>
+										<input type="text" name="" class="form-control" placeholder="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<div class="form-group">
+									<label for="" class="form-label">Phone Number</label>
+									<div>
+										<input type="text" name="" class="form-control" placeholder="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group submit mt-5">
+							<button type="submit" class="btn btn-primary btn-wide text-uppercase">Update</button>
+						</div>
+					</form>
+
+				</div>
+				
+			</div>
+
+		</div>
+	</section>
+
+</div>
+
+
+	<!--  -->
+
+
+	<!-- Modal Login-->
+	<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModal" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	    <div class="modal-content auth">
+	      <div class="modal-body">
+	      	<h5>Welcome to Login</h5>
+	      	<p class="text-muted">please fill your email &amp; password to login your app account --OR- <a href="signup.html" class="link-pink">Sign up</a></p>
+
+	      	<form action="" methods="" class="mt-5">
+	      		<div class="form-group">
+	      			<label for="">E-Mail</label>
+	      			<input type="email" class="form-control" placeholder="emial address...">
+	      		</div>
+	      		<div class="form-group">
+	      			<label for="">Password</label>
+	      			<input type="password" class="form-control" placeholder="***********">
+	      		</div>
+	      		<div class="form-group">
+	      			<div class="row">
+	      				<div class="col-6">
+	      					<ul class="checkboxes ch-grn">
+	      						<li>
+	      							<input type="checkbox" name="remember" id="rememberMe" class="styled-checkbox" checked>
+	      							<label for="rememberMe">Remember</label>
+	      						</li>
+	      					</ul>
+	      				</div>
+	      				<div class="col-6 text-right">
+	      					<a href="#">Forget Password?</a>
+	      				</div>
+	      			</div>
+	      		</div>
+	      		<div class="form-group mt-4 submit">
+	      			<button type="submit" class="btn btn-primary btn-block">Submit</button>
+	      		</div>
+	      	</form>
+
+	      	<div class="social-signin mt-5">
+	      		<a href="" class="social-sign-link sign-google">
+	      			<span class="icon"><i class="fab fa-google"></i></span>
+	      			Sign up
+	      		</a>
+	      		<a href="" class="social-sign-link sign-facebook">
+	      			<span class="icon"><i class="fab fa-facebook-f"></i></span>
+	      			Sign up
+	      		</a>
+	      	</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal Login-->
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	    <div class="modal-content auth">
+	      <div class="modal-body">
+	      	<h5>Create your Account</h5>
+	      	<p class="text-muted">Do you already have account? <a href="signup.html" class="link-pink">Sign in</a></p>
+
+	      	<form action="" methods="" class="mt-5">
+	      		<div class="form-group">
+	      			<label for="">Name</label>
+	      			<input type="text" class="form-control" placeholder="name...">
+	      		</div>
+	      		<div class="form-group">
+	      			<label for="">E-Mail</label>
+	      			<input type="email" class="form-control" placeholder="emial address...">
+	      		</div>
+	      		<div class="form-group">
+	      			<label for="">Password</label>
+	      			<input type="password" class="form-control" placeholder="***********">
+	      		</div>
+	      		<div class="form-group mt-4 submit">
+	      			<button type="submit" class="btn btn-primary btn-block">Submit</button>
+	      		</div>
+	      	</form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal Reset Password -->
+	<div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog" aria-labelledby="resetPasswordModal" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	    <div class="modal-content auth">
+	      <div class="modal-body">
+	      	<div class="back mb-5">
+	      		<a href="#"><i class="fas fa-arrow-left"></i> &nbsp; Back</a>
+	      	</div>
+
+	      	<h5>Reset Password</h5>
+	      	<p class="text-muted">Enter your email address, we will send you link to reset your password.</p>
+
+	      	<form action="" methods="" class="mt-5">
+	      		<div class="form-group">
+	      			<label for="">E-Mail</label>
+	      			<input type="email" class="form-control" placeholder="emial address...">
+	      		</div>
+	      		<div class="form-group mt-4 submit">
+	      			<button type="submit" class="btn btn-primary btn-block">Submit</button>
+	      		</div>
+	      	</form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal Reset Password -->
+	<div class="modal fade" id="codeModal" tabindex="-1" role="dialog" aria-labelledby="codeModal" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	    <div class="modal-content auth">
+	      <div class="modal-body">
+	      	<div class="back mb-5">
+	      		<a href="#"><i class="fas fa-arrow-left"></i> &nbsp; Back</a>
+	      	</div>
+
+	      	<h5>Enter the Code</h5>
+	      	<p class="text-muted">Enter the code we sent to your phone, please check and fill it.</p>
+
+	      	<form action="" methods="" class="mt-5">
+	      		<div class="custom-auth-height">
+		      		<div class="row">
+		      			<div class="col-3">
+		      				<input type="text" class="form-control input-code" placeholder="-">
+		      			</div>
+		      			<div class="col-3">
+		      				<input type="text" class="form-control input-code" placeholder="-">
+		      			</div>
+		      			<div class="col-3">
+		      				<input type="text" class="form-control input-code" placeholder="-">
+		      			</div>
+		      			<div class="col-3">
+		      				<input type="text" class="form-control input-code" placeholder="-">
+		      			</div>
+		      		</div>
+		      		<div class="form-group text-center mt-5">
+		      			<div>I did not recive the code</div>
+		      			<a href="#" class="text-uppercase link-pink">resend Code</a>
+	      			</div>
+      			</div>
+	      		<div class="form-group mt-4 submit">
+	      			<button type="submit" class="btn btn-primary btn-block">Submit</button>
+	      		</div>
+	      	</form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+	<!-- js -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	
+	<script src="js/script.js"></script>
+	
+
+</body>
+</html>
